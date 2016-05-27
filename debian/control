@@ -1,0 +1,16 @@
+Source: golang-github-disintegration-imaging
+Section: devel
+Priority: extra
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),dh-golang, golang-go, golang-golang-x-image-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/howeyc/fsnotify.git
+
+Package: golang-github-disintegration-imaging-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, golang-golang-x-image-dev
+Conflicts: golang-imaging.disintegration-dev
+Provides: golang-imaging.disintegration-dev
+Breaks: golang-imaging.disintegration-dev
+Description: Simple Go image processing package
+ Simple Go image processing package
